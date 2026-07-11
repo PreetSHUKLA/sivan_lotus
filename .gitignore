@@ -1,0 +1,27 @@
+# Environment / secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.venv/
+
+# PyInstaller build output
+build/
+dist/
+
+# Downloaded models / caches (can be large, don't want them in the repo)
+*.gguf
+models/
+
+# Exported chats
+sivan_chat_*.md
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
